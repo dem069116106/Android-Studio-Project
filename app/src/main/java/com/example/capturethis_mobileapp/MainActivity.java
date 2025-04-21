@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         CookieManager.getInstance().setAcceptCookie(true);
         CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true);
-        webView.loadUrl("http://192.168.1.12:8080/");
+        webView.loadUrl("https://bbbc-46-10-34-45.ngrok-free.app");
     }
 
     @Override
